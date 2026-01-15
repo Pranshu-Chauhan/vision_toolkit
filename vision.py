@@ -10,4 +10,8 @@ def to_gray(img):
     return grayscale_image
 
 def display(img):
+    if img is None:
+        print("Nothing to display")
+        return
     print(f"Displaying {img}")
+
