@@ -1,5 +1,6 @@
 def load_image(path):
-    print(f"Loading image from {path}")
+    print(f"Reading image from {path}")
+    return path
 
 def to_gray(img):
     print("Converting image to grayscale")
